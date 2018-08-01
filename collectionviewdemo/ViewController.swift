@@ -73,8 +73,6 @@ class ViewController: UIViewController {
         collectionView.register(UINib.init(nibName: "SelfSizingCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "SelfSizingCollectionViewCell")
         collectionView.register(UINib.init(nibName: "FixedHeightSelfSizingCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "FixedHeightSelfSizingCollectionViewCell")
         flowLayout.estimatedItemSize = UICollectionViewFlowLayoutAutomaticSize
-        flowLayout.itemSize = UICollectionViewFlowLayoutAutomaticSize
-        flowLayout.invalidateLayout()
     }
 }
 
